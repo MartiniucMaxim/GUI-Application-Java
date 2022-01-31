@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="UI.MainForm">
+  <grid id="27dc6" binding="Content" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <toolbar id="4d847">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="1" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <floatable value="false"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="55d9" class="javax.swing.JButton" binding="bView">
+            <constraints/>
+            <properties>
+              <borderPainted value="false"/>
+              <focusPainted value="false"/>
+              <font name="Times New Roman" size="16" style="0"/>
+              <text value="View"/>
+              <toolTipText value="View"/>
+            </properties>
+          </component>
+          <component id="cbdb5" class="javax.swing.JButton" binding="bWindows">
+            <constraints/>
+            <properties>
+              <borderPainted value="false"/>
+              <focusPainted value="false"/>
+              <font name="Times New Roman" size="16" style="0"/>
+              <text value="Windows"/>
+              <toolTipText value="Windows"/>
+            </properties>
+          </component>
+          <component id="7b37a" class="javax.swing.JButton" binding="bHelp">
+            <constraints/>
+            <properties>
+              <borderPainted value="false"/>
+              <focusPainted value="false"/>
+              <font name="Times New Roman" size="16" style="0"/>
+              <text value="Help"/>
+              <toolTipText value="Help"/>
+            </properties>
+          </component>
+        </children>
+      </toolbar>
+      <scrollpane id="cee20" binding="editorScroll">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="f4840" class="javax.swing.JTextArea" binding="editor">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+      <toolbar id="42f27">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <floatable value="false"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="fde7a" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <font name="Times New Roman" size="14" style="2"/>
+              <foreground color="-16777216"/>
+              <text value="имя:"/>
+            </properties>
+          </component>
+          <component id="bc1c2" class="javax.swing.JLabel" binding="lName">
+            <constraints/>
+            <properties>
+              <font name="Times New Roman" size="14" style="2"/>
+              <foreground color="-16777216"/>
+              <text value="?"/>
+            </properties>
+          </component>
+          <component id="b5a3f" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <font name="Times New Roman" size="14" style="2"/>
+              <foreground color="-16777216"/>
+              <text value="    расположение:"/>
+            </properties>
+          </component>
+          <component id="37719" class="javax.swing.JLabel" binding="lLocation">
+            <constraints/>
+            <properties>
+              <font name="Times New Roman" size="14" style="2"/>
+              <foreground color="-16777216"/>
+              <text value="?"/>
+            </properties>
+          </component>
+          <component id="2441a" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <font name="Times New Roman" size="14" style="2"/>
+              <foreground color="-16777216"/>
+              <text value="    размер:"/>
+            </properties>
+          </component>
+          <component id="42e83" class="javax.swing.JLabel" binding="lSize">
+            <constraints/>
+            <properties>
+              <font name="Times New Roman" size="14" style="2"/>
+              <foreground color="-16777216"/>
+              <text value="?"/>
+            </properties>
+          </component>
+        </children>
+      </toolbar>
+      <toolbar id="4c1bc">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <floatable value="false"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="ecdb9" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <font name="Times New Roman" size="14" style="2"/>
+              <foreground color="-16777216"/>
+              <text value="дата сборки:"/>
+            </properties>
+          </component>
+          <component id="bfa65" class="javax.swing.JLabel" binding="lAssemblyDate">
+            <constraints/>
+            <properties>
+              <font name="Times New Roman" size="14" style="2"/>
+              <foreground color="-16777216"/>
+              <text value="?"/>
+            </properties>
+          </component>
+        </children>
+      </toolbar>
+    </children>
+  </grid>
+</form>
